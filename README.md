@@ -205,6 +205,8 @@ Menampilkan halaman utama dan navigasi menuju seluruh fitur aplikasi.
 
 ![Halaman Home](Dokumentasi/Tampilan_awal.png)
 
-### B. Proses Crud
+### B. Proses CRUD
 
-Menampilkan proses penambahan, penampilan, perubahan, dan penghapusan secara berurutan dimualai tabel dosen, mahasiswa, dan presensi.
+Menampilkan proses penambahan, penampilan, perubahan, dan penghapusan secara berurutan dimulai tabel dosen, mahasiswa, dan presensi.
+
+https://github.com/user-attachments/assets/d92aaeb1-d66a-4d35-8116-65cbbfc02158
