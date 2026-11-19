@@ -1,0 +1,187 @@
+/* Mengatur tampilan dasar halaman */
+body {
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+    color: #343a40;
+}
+
+/* Mengatur container utama */
+.container {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/* Mengatur judul halaman */
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #212529;
+}
+
+/* Mengatur judul bagian */
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* Mengatur container form */
+.form-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Mengatur label pada form */
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Mengatur input dan select pada form */
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Memberikan efek ketika input dipilih */
+.form-container input:focus,
+.form-container select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.12);
+}
+
+/* Mengatur tombol pada form */
+.form-container button {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Efek ketika tombol diarahkan kursor */
+.form-container button:hover {
+    background-color: #0b5ed7;
+}
+
+/* Mengatur container tabel */
+.table-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    overflow-x: auto;
+}
+
+/* Mengatur tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Mengatur header dan isi tabel */
+th,
+td {
+    padding: 13px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef;
+    vertical-align: middle;
+}
+
+/* Mengatur header tabel */
+th {
+    background-color: #f1f4f8;
+    color: #343a40;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Memberikan efek ketika baris tabel diarahkan kursor */
+tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Mengatur form edit dan hapus di dalam tabel */
+td form {
+    margin-bottom: 8px;
+}
+
+/* Mengatur input pada form edit */
+td input,
+td select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 6px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Mengatur tombol pada tabel */
+td button {
+    padding: 7px 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Mengatur tombol edit */
+td form:first-child button {
+    background-color: #198754;
+    color: white;
+}
+
+/* Efek hover tombol edit */
+td form:first-child button:hover {
+    background-color: #157347;
+}
+
+/* Mengatur tombol hapus */
+td form:last-child button {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Efek hover tombol hapus */
+td form:last-child button:hover {
+    background-color: #bb2d3b;
+}
+
+/* Mengatur tampilan pada layar kecil */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    .form-container,
+    .table-container {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
