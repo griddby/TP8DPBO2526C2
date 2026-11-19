@@ -111,6 +111,9 @@ TP8DPBO2526/
         │   ├── StudentController.php        # Mengatur alur pengelolaan data mahasiswa.
         │   └── AttendanceController.php     # Mengatur alur pengelolaan data presensi.
         │
+        ├── config/
+        │   └── connection.php               # Mengatur koneksi antara aplikasi PHP dengan database MySQL.
+        │
         ├── models/
         │   ├── DB.php                       # Mengatur koneksi dan eksekusi query database.
         │   ├── Lecturer.php                 # Menangani CRUD tabel lecturers.
