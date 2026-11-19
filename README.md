@@ -198,14 +198,13 @@ Dengan demikian, ID tetap digunakan sebagai Foreign Key di database, tetapi peng
 
 # 3. Dokumentasi Program
 
-
-### A. Halaman Home
+### 3.1 Halaman Home
 
 Menampilkan halaman utama dan navigasi menuju seluruh fitur aplikasi.
 
 ![Halaman Home](Dokumentasi/Tampilan_awal.png)
 
-### B. Proses CRUD
+### 3.2 Proses CRUD
 
 Menampilkan proses penambahan, penampilan, perubahan, dan penghapusan secara berurutan dimulai tabel dosen, mahasiswa, dan presensi.
 
